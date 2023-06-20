@@ -9,6 +9,7 @@ vowels = "уеыаоэяиюё"
 words = input().lower().split()
 vowels_count = set(map(find_vowels_conut, words))
 print(vowels_count)
+print(vowels_count)
 if(len(vowels_count) == 1) and (vowels_count != {0}):
     print('Парам пам-пам')
 else:
